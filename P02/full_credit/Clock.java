@@ -13,5 +13,5 @@ public class Clock {
 	@Override
 	public String toString() {
 		return "The time is " + hours + ":" + minutes + ":" + seconds;
-	}
+	}	
 }
