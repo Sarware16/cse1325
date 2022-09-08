@@ -9,9 +9,16 @@ public class Clock {
 		this.minutes = minutes;
 		this.seconds = seconds;
 	}
+	private String twoDigit(int i) {
+		if(i<10){
+			return "0" + i;
+		}
+		return ""+ i;
+	}
 
 	@Override
 	public String toString() {
-		return "The time is " + hours + ":" + minutes + ":" + seconds;
+
+		return "The time is " + twoDigit(hours) + ":" + twoDigit(minutes) + ":" + twoDigit(seconds);
 	}	
 }
