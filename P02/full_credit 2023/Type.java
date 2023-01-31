@@ -1,1 +1,0 @@
-public enum Type { UNICORN, PEGASUS, JACKALOPE, MARCH_HARE}
